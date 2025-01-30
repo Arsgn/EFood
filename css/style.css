@@ -427,9 +427,10 @@ img {
 #say {
   padding-block: 50px;
 }
-.h1say {
+.h1say h1 {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   padding-block: 30px;
 }
