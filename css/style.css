@@ -382,7 +382,7 @@ img {
 .food-content h1 span {
   color: #ff7a50;
 }
-stay {
+#stay {
   padding-block: 50px;
 }
 
@@ -404,4 +404,18 @@ stay {
 
 .stay-content h1 span {
   color: #ff7a50;
+}
+
+#mobile {
+  padding-block: 60px;
+}
+
+.mobile {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.mobile-content {
+  align-items: center;
 }
