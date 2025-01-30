@@ -342,3 +342,66 @@ footer ul,
   display: flex;
   gap: 40px;
 }
+
+#food {
+  padding-block: 50px;
+}
+
+.food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+}
+.food-content {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.food-content h1 {
+  font-size: clamp(1.5rem, 0.75rem + 3.75vw, 3.75rem);
+}
+
+.food-content p {
+  font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
+}
+.food-btn button:hover {
+  color: #4499d9;
+  transform: scale(1.1);
+  background: #ffffff;
+  color: black;
+}
+.food-content h1 span {
+  color: #ff7a50;
+}
+stay {
+  padding-block: 50px;
+}
+
+.stay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stay-content {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.stay-content h1 span {
+  color: #ff7a50;
+}
