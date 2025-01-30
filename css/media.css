@@ -101,3 +101,27 @@
     padding-block: 10px;
   }
 }
+
+@media (max-width: 1150px) {
+  .pblock {
+    width: 200px;
+  }
+}
+@media (max-width: 1000px) {
+  .popular-nav button {
+    padding: 6px 20px;
+  }
+  .popular-blocks {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 880px) {
+  .popular-nav button {
+    padding: 0px 10px;
+  }
+  .popular-nav {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
